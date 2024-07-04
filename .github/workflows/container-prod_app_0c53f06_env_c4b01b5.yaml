@@ -3,7 +3,8 @@ name: container-prod_app_0c53f06_env_c4b01b5 Pipeline (Skyu Generated)
   push:
     tags:
       - v*
-    paths: []
+    paths-ignore:
+      - .github/workflows/**
   workflow_dispatch: {}
   repository_dispatch:
     types: pipeline_47e6eead-0e9d-483b-83a8-6abda22c05dd
