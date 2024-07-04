@@ -4,7 +4,8 @@ name: container-staging_app_0c53f06_env_4f4cc38 Pipeline (Skyu Generated)
     branches:
       - staging
       - release/*
-    paths: []
+    paths-ignore:
+      - .github/workflows/**
   workflow_dispatch: {}
   repository_dispatch:
     types: pipeline_c8ccc3b7-46a6-44d0-a650-3fa729278b2c
